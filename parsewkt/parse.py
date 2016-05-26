@@ -30,6 +30,8 @@ class WktParser(Parser):
                 self._surface_text_representation_()
             with self._option():
                 self._collection_text_representation_()
+	    with self._option():
+		self._multipolygon_text_representation_()
             self._error('no available options')
 
     @rule_def

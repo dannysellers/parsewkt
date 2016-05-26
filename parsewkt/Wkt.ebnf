@@ -2,7 +2,8 @@ well_known_text_representation =
     point_text_representation |
     curve_text_representation |
     surface_text_representation |
-    collection_text_representation;
+    collection_text_representation |
+    multipolygon_text_representation;
 
 point_text_representation = "POINT" [ z_m ] point_text;
 

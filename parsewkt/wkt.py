@@ -149,7 +149,7 @@ class Semantics(WktSemantics):
 
 def from_wkt(text):
     parser = WktParser(parseinfo=False)
-    ast = parser.parse(text, rule_name='well_known_text_representation', semantics=Semantics())
+    ast = parser.parse(text, rule_name='_well_known_text_representation_', semantics=Semantics())
     if isinstance(ast, dict):
         return ast
     else:

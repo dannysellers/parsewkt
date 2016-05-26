@@ -51,7 +51,7 @@ setup(name='parsewkt',
       zip_safe=False,
       install_requires=[
           # -*- Extra requirements: -*-
-          'grako',
+          'grako==2.0.0',
       ],
       tests_require=[
         'pytest',
